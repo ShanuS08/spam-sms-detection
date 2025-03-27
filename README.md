@@ -14,7 +14,7 @@ The dataset consists of **5,574 SMS messages**, labeled as **spam** or **ham**. 
 - NLTK (Natural Language Toolkit)  
 - Scikit-Learn  
 - TfidfVectorizer  
-- Naïve Bayes Classifier  
+- Naive Bayes Classifier  
 - Random Forest Classifier  
 
 ## How It Works  
@@ -25,8 +25,7 @@ The dataset consists of **5,574 SMS messages**, labeled as **spam** or **ham**. 
    - Remove stopwords  
 3. **Convert text to numerical features** using `TfidfVectorizer`  
 4. **Train models** using `Multinomial Naïve Bayes` and `Random Forest`  
-5. **Evaluate the model** on test data  
-6. **Save the trained model** for future predictions  
+5. **Evaluate the model** on test data   
 
 ## Model Performance  
 - **Naïve Bayes Accuracy**: ~97%  
